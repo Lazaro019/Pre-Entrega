@@ -1,1 +1,1 @@
-# Pre-Entrega
+Esta es una página destinada a vender videojuegos en formato fisico que cuenta con un Inicio mostrando reseñas, un breve catalogo de los productos y enlaces para dirigirse a la pagina de Productos (videojuegos ordenados por consolas), Contacto (para enviar comentarios a traves de un formulario) y un Carrito.

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/Proyecto/CSS/StylesContacto.CSS">
+</head>
+<body>
+    <header>
+        <a href="index.html" target="_self"><img src="./Img/logo1.png" width="150" alt="150"></a>
+        <h1><center><strong>Contacto</strong></center></h1>
+        <nav>
+            <ul>
+                <li><a href="/Proyecto/productos.html" target="_blank">Productos</a></li>
+                <li><a href="/Proyecto/index.html" target="_blank">Inicio</a></li>
+                <li><a href="/Proyecto/carrito.html" target="_blank" >Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form action="" method="post">
+            <fieldset>
+               <legend>Datos personales</legend>
+               <p>
+               <label for="nombre">Nombre: 
+               <input name="nombre" id="nombre" type="text">
+               </label>
+               <label for="apellido">Apellido:
+                <input name="apellido" id="apellido" type="text">
+               </label> 
+               </p>
+               <p>
+                <label for="telefono">Numero de telefono:
+                    <input name="telefono" id="telefono" type="tel">
+                </label>
+                <label for="email">Correo electronico:
+                    <input name="Correo" id="Correo" type="email">
+                </label>
+               </p>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <label for="comentarios">
+                    <textarea name="comentario" id="comentario" rows="8" cols="50"></textarea>
+                </label>
+                <input type="submit" id="enviar">
+            </fieldset>
+
+        </form>
+
+    </main>
+</body>
+</html>

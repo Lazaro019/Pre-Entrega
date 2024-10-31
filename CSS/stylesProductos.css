@@ -1,0 +1,43 @@
+header h1  {
+    text-align: center;
+    padding: 40px;
+    background-color: #015875;
+    color: #55DDE0;
+    margin: 0%;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+main div h2{
+    background-color: rgb(4, 4, 160);
+    border-radius: 10px;
+    margin-bottom: 0%;
+    padding: 5px;
+    color: white;
+}
+
+div h3{
+    font-size: 1.9em;
+    background-color: rgb(1, 145, 1);
+    margin-bottom: 0%;
+    margin-top: 8%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #abf2f3;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
